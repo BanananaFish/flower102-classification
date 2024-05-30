@@ -1,0 +1,6 @@
+_target_: src.data.flower102_datamodule.FlowerDataModule
+data_dir: ${paths.data_dir}
+batch_size: 64 # Needs to be divisible by the number of devices (e.g., if in a distributed setup)
+val_in_train_split: 0.1
+num_workers: 79
+pin_memory: True

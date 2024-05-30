@@ -2,8 +2,8 @@
 
 defaults:
   - _self_
-  - data: mnist # choose datamodule with `test_dataloader()` for evaluation
-  - model: mnist
+  - data: flower102 # choose datamodule with `test_dataloader()` for evaluation
+  - model: flower102
   - logger: null
   - trainer: default
   - paths: default
